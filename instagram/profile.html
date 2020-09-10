@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <link rel="stylesheet" href="./profile.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="profile-header">
+    <nav class="profile-header__nav">
+      <div class="profile-header__nav-wordmark">
+        <img src="./images/instagram-wordmark.svg" alt="" class="nav-wordmark-img">
+      </div>
+      <div class="profile-header__nav-searchbar">
+        <span class="nav-searchbar-icon"><i class="fa fa-search"></i></span>
+        <span class="nav-searchbar-text">Search</span>
+        <input type="text" class="nav-searchbar">
+      </div>
+      <ul class="profile-header__nav-items">
+        <li class="profile-header__nav-item"><img src="images/home.png"></li>
+        <li class="profile-header__nav-item"><img src="images/message.png"></li>
+        <li class="profile-header__nav-item"><img src="images/path.png"></li>
+        <li class="profile-header__nav-item"><img src="images/like.png"></li>
+        <li class="profile-header__nav-item"><img src="images/profile.png"></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="profile-main">
+    <header class="container__user-info">
+      <div class="wrapper__profile">
+        <img src="./images/duck.jpg" alt="" class="profile-image">
+      </div>
+      <div class="wrapper__user-info">
+        <div class="user-info__header">
+          <h2 class="user-info__header-title">username</h2>
+          <button class="user-info__edit-btn">Edit Profile</button>
+          <button class="user-info__setting-btn"><i class="fa fa-cog"></i></button>
+        </div>
+        <div class="user-info__stats">
+          <span class="user-info__stat-posts"><b>10</b> posts</span>
+          <span class="user-info__stat-followers"><b>10</b> followers</span>
+          <span class="user-info__stat-following"><b>1</b> following</span>
+        </div>
+        <div class="user-info__custom">
+          <h4 class="custom__username">username</h4>
+          <span class="custom__status">hello world!</span>
+        </div>
+      </div>
+    </header>
+    <div class="container__images">
+      <nav class="container__images-nav">
+        <ul class="images-nav__items">
+          <li class="images-nav__item"><span></span>posts</li>
+          <li class="images-nav__item"><span></span>igtv</li>
+          <li class="images-nav__item"><span></span>saved</li>
+          <li class="images-nav__item"><span></span>tagged</li>
+        </ul>
+      </nav>
+      <div class="images">
+        <img class="container__image-item">
+        <img class="container__image-item">
+        <img class="container__image-item">
+        <img class="container__image-item">
+        <img class="container__image-item">
+        <img class="container__image-item">
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="footer__nav-items">
+          <li class="footer__nav-item">about</li>
+          <li class="footer__nav-item">help</li>
+          <li class="footer__nav-item">press</li>
+          <li class="footer__nav-item">api</li>
+          <li class="footer__nav-item">jobs</li>
+          <li class="footer__nav-item">privacy</li>
+          <li class="footer__nav-item">terms</li>
+          <li class="footer__nav-item">locations</li>
+          <li class="footer__nav-item">top accounts</li>
+          <li class="footer__nav-item">hashtags</li>
+          <li class="footer__nav-item">language</li>
+          <small class="footer__copyright">© 2020 instagram from facebook</small>
+        </ul>
+       </nav>
+    </footer>
+</body>
+
+</html>
