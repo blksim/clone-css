@@ -1,1 +1,26 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.footer {
+  padding: 38px 0;
+}
+
+.footer__nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.footer__nav-item {
+  color: #00376b;
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  text-transform: uppercase;
+}
+
