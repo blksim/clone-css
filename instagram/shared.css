@@ -1,6 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
 
 .footer {
+  position: absolute;
+  bottom: 0;
   padding: 38px 0;
+  width: 100%;
 }
 
 .footer__nav-items {
@@ -22,3 +37,5 @@
 .footer__copyright {
   text-transform: uppercase;
 }
+
+/*# sourceMappingURL=shared.css.map */

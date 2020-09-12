@@ -1,7 +1,21 @@
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
 
 .footer {
+  position: absolute;
+  bottom: 0;
   padding: 38px 0;
+  width: 100%;
 }
 
 .footer__nav-items {
