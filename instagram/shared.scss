@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   font-family: sans-serif;
-}
-
-body {
-  position: relative;
 }
 
 .footer {
@@ -36,5 +36,9 @@ body {
 
 .footer__copyright {
   text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
 }
 
+/*# sourceMappingURL=shared.css.map */

@@ -2,17 +2,16 @@
   box-sizing: border-box;
 }
 
-html {
-  position: relative;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   font-family: sans-serif;
 }
 
-body {
-  position: relative;
-}
-
 .footer {
-  position: absolute;
+  position: auto;
   bottom: 0;
   padding: 38px 0;
   width: 100%;
@@ -36,6 +35,9 @@ body {
 
 .footer__copyright {
   text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=shared.css.map */
