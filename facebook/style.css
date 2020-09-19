@@ -21,21 +21,24 @@ html, body {
 
 .wordmark {
   position: relative;
+  height: 20%;
   width: 50%;
   margin: 0 120px;
-  text-align: center;
 }
 
 .wordmark-img {
+  position: absolute;
   width: 250px;
+  top: -53%;
+  left: 36%;
 }
 
 .intro {
   position: absolute;
+  top: 20%;
+  left: 40%;
   width: 60%;
-  left: 36%;
   font-size: 25px;
-  top: 120px;
   text-align: left;
 }
 
@@ -98,4 +101,41 @@ html, body {
 .intro-page a {
   text-decoration: none;
   font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.language-items,
+.submenu-items {
+  margin: 10px 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: small;
+  color: #8a8d91;
+}
+
+.language-items {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.language-item,
+.submenu-item {
+  margin: 0 5px;
+}
+
+.copyright {
+  margin-top: 5px;
+  font-size: x-small;
+  color: #8a8d91;
+  margin: 10px 240px;
 }
