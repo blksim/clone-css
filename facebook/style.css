@@ -43,21 +43,21 @@ html, body {
 }
 
 .input-box {
-  position: relative;
   margin-right: 200px;
+  text-align: center;
+}
+
+.signin-form {
   padding: 15px;
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
   text-align: center;
-}
-
-.signin-form {
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
 
-.signin-form input{
+.signin-form input {
   width: 100%;
   height: 50px;
   border-radius: 5px;
@@ -65,42 +65,73 @@ html, body {
   margin: 5px 0;
 }
 
-.signin-form input:nth-of-type(3) {
-  background: #3b5999;
+.signin-form input:focus,
+.signin-form input:active {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-btn {
+  background: #334d83;
   color: white;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.signin-form a {
+.login-btn:hover,
+.login-btn:active {
+  cursor: pointer;
+  background-color: #283c66;
+}
+
+.forgot-password {
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
   text-decoration: none;
   color: #3b5999;
   font-size: small;
 }
 
+.forgot-password:hover,
+.forgot-password:active {
+  text-decoration: underline;
+}
+
 .signup-btn {
-  width: 40%;
-  height: 50px;
+  display: inline-block;
   margin: 15px 0;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   background: #33b93e;
   color: white;
   font-size: 15px;
   font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.signup-btn:active,
+.signup-btn:hover {
+  cursor: pointer;
+  background-color: #36a420;
 }
 
 .intro-page {
-  position: absolute;
-  top: 105%;
-  left: 25%;
   font-size: small;
+  line-height: 4;
 }
 
 .intro-page a {
   text-decoration: none;
   font-weight: bold;
+}
+
+.intro-page a:hover,
+.intro-page a:active {
+  text-decoration: underline;
 }
 
 .footer {
@@ -131,6 +162,14 @@ html, body {
 .language-item,
 .submenu-item {
   margin: 0 5px;
+}
+
+.language-item:hover,
+.language-item:active,
+.submenu-item:hover,
+.submenu-item:active {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .copyright {
