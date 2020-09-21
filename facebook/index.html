@@ -6,26 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Facebook - Log In or Sign Up</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="signup-modal">
+    <div class="signup-modal__header">
+      <h1 class="signup-modal__title">Sign Up</h1>
+      <p class="signup-modal__subtitle">It's quick and easy.</p>
+      <span class="signup-modal__dismiss"><i class="fa fa-times"></i></span>
+    </div>
+    <form class="signup-modal__form">
+      <input type="text" name="fname" id="fname" placeholder="First name">
+      <input type="text" name="lname" id="lname" placeholder="Last name">
+      <input type="email" name="email" id="email" placeholder="Mobile number or email">
+      <input type="password" name="newPassword" id="newPassword" placeholder="New Password">
+      <span>Birthday&nbsp;<i class="fa fa-question-circle"></i></span>
+      <select class="signup-modal__select">
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>Mar</option>
+        <option>Apr</option>
+        <option>May</option>
+        <option>Jun</option>
+        <option>Jul</option>
+        <option>Aug</option>
+        <option>Sep</option>
+        <option>Oct</option>
+        <option>Nov</option>
+        <option>Dec</option>
+      </select>
+      <select class="signup-modal__select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <select class="signup-modal__select">
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+      </select>
+      <span>Gender&nbsp;<i class="fa fa-question-circle"></i></span>
+      <span class="signup-modal__radio">Female<input type="radio" name="gender" id="female"></span>
+      <span class="signup-modal__radio">Male<input type="radio" name="gender" id="male"></span>
+      <span class="signup-modal__radio">Custom<input type="radio" name="gender" id="custom"></span>
+      <small class="signup-modal__terms">By clicking Sign Up, you agree to our Terms, <a href="#">Data Policy</a> and <a
+          href="#">Cookies
+          Policy</a>. You may receive SMS Notifications from us and can opt out any time.</small>
+      <input class="signup-modal__btn" type="submit" value="Sign Up">
+    </form>
+  </div>
   <main class="container">
-      <div class="wordmark">
-        <img class="wordmark-img" src="images/facebook-wordmark.png">
-        <p class="intro">Connect with friends and the world around you on Facebook.</p>
-      </div>
-      <div class="input-box">
-        <form action="" class="signin-form">
-          <input type="text" name="email" id="email" placeholder="Email or Phone Number">
-          <input type="password" name="password" id="password" placeholder="Password">
-          <input type="submit" value="Log In" class="login-btn">
-          <a class="forgot-password" href="#">Forgot Password?</a>
-          <span class="divider"></span>
-          <a href="./signup.html" class="signup-btn">Create New Account</a>
-        </form>
-        <p class="intro-page"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
-      </div>
+    <div class="wordmark">
+      <img class="wordmark-img" src="images/facebook-wordmark.png">
+      <p class="intro">Connect with friends and the world around you on Facebook.</p>
+    </div>
+    <div class="input-box">
+      <form action="" class="signin-form">
+        <input type="text" name="email" id="email" placeholder="Email or Phone Number">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="submit" value="Log In" class="login-btn">
+        <a class="forgot-password" href="#">Forgot Password?</a>
+        <span class="divider"></span>
+        <a href="./signup.html" class="signup-btn">Create New Account</a>
+      </form>
+      <p class="intro-page"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+    </div>
   </main>
   <footer class="footer">
     <nav class="languages">
