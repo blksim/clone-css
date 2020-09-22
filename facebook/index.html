@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <div class="backdrop"></div>
   <div class="signup-modal">
     <div class="signup-modal__header">
       <h1 class="signup-modal__title">Sign Up</h1>
@@ -48,9 +49,9 @@
         <option>2018</option>
       </select>
       <span>Gender&nbsp;<i class="fa fa-question-circle"></i></span>
-      <span class="signup-modal__radio">Female<input type="radio" name="gender" id="female"></span>
-      <span class="signup-modal__radio">Male<input type="radio" name="gender" id="male"></span>
-      <span class="signup-modal__radio">Custom<input type="radio" name="gender" id="custom"></span>
+      <div class="signup-modal__radio">Female<input type="radio" name="gender" id="female"></div>
+      <div class="signup-modal__radio">Male<input type="radio" name="gender" id="male"></div>
+      <div class="signup-modal__radio">Custom<input type="radio" name="gender" id="custom"></div>
       <small class="signup-modal__terms">By clicking Sign Up, you agree to our Terms, <a href="#">Data Policy</a> and <a
           href="#">Cookies
           Policy</a>. You may receive SMS Notifications from us and can opt out any time.</small>
@@ -69,7 +70,7 @@
         <input type="submit" value="Log In" class="login-btn">
         <a class="forgot-password" href="#">Forgot Password?</a>
         <span class="divider"></span>
-        <a href="./signup.html" class="signup-btn">Create New Account</a>
+        <a href="#" class="signup-btn">Create New Account</a>
       </form>
       <p class="intro-page"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
     </div>
@@ -128,6 +129,7 @@
     </nav>
     <small class="copyright">Facebook © 2020</small>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
